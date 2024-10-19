@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+               /* ตั้งค่าพื้นหลัง */
+               body {
+            background-image: url("/ที่่เก็บรูป/PORTFOLIO\ \(1\).png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: bottom;
+            background-size: cover;
+            font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4
+        }
+
+        /* จัดรูปแบบลิงก์ */
+        li {
+            display: inline;
+            padding: 10px;
+        }
+        /* สไตล์สำหรับเมนูนำทาง */
+.navbar {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-list li a:hover {
+    color: #FA4616;
+}
+
+
+        a {
+            text-decoration: none;
+            color: #7B8189;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #FA4616;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+        <!-- เมนูนำทาง -->
+        <center>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="/หน้ากิจกรรม/หน้ากิจกรรม.html">กิจกรรมที่เข้าร่วม</a></li>
+                    <li><a href="/หน้าสอง/เเนะนตัว.html">เเนะนำตัว</a></li>
+                    <li><a href="javascript:void(0);" onclick="goBack()">Back</a></li>
+                </ul>
+            </nav>
+        </center>
+        <hr>
+        
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+</body>
+</html>
